@@ -1,6 +1,6 @@
 <h1 align="center"> AGENDA PERSONAL DE CITAS </h1>
 
-## Descripción del Sistema
+## Descripción del Sistema 
 La Agenda Personal de Citas es una aplicación diseñada para registrar, organizar y 
 gestionar citas personales o profesionales. Permite al usuario agendar nuevas citas, editar 
 o eliminar existentes, visualizar por día/semana/mes y recibir recordatorios. Su objetivo 
@@ -49,9 +49,7 @@ Se propone realizar un **mantenimiento evolutivo** para incorporar nuevas funcio
 También se planifica un **mantenimiento preventivo** mensual, enfocado en respaldos automáticos y actualizaciones de seguridad.
 
 ## Reflexión sobre el control de versiones
-El uso de **Git** y **GitHub** permite mantener un control detallado sobre los cambios realizados en el sistema y en la documentación.  
-Cada actualización se registra con fecha, autor y descripción, lo cual mejora la **colaboración**, la **organización** y la **transparencia del desarrollo**.  
-Además, el control de versiones evita errores por sobrescritura de archivos y facilita la restauración de versiones anteriores si es necesario.
+El control de versiones en GitHub permite llevar un historial claro de los cambios, recuperar archivos si ocurre un error y trabajar de forma más organizada. Es una herramienta esencial para mantener la documentación y el desarrollo seguros, ordenados y fáciles de gestionar. 
 
 ---
 
