@@ -14,6 +14,8 @@ estudiantes.
 - Garantizar que los datos sean seguros y se almacenen correctamente.
 
 ## Requerimientos Funcionales
+Son los que describen qué debe hacer el sistema.
+Definen las funcionalidades, acciones o servicios que la aplicación debe ofrecer.
 | **Código** | **Descripción** | **Criterio de Éxito** |
 |------------|------------------|------------------------|
 | **RF-01: Gestión de Citas** | El sistema debe permitir al usuario crear, visualizar, modificar y eliminar citas. | Para cada cita, el usuario debe poder almacenar como mínimo: título, fecha, hora, ubicación y descripción. |
@@ -23,6 +25,8 @@ estudiantes.
 | **RF-05: Respaldo y Sincronización** | El sistema debe permitir respaldar y restaurar toda la información de la agenda. | El archivo de respaldo contendrá toda la información de citas y etiquetas y permitirá recuperar los datos en otro dispositivo. |
 
 ## Requerimientos no Funcionales
+Describen cómo debe comportarse el sistema, pero no son funciones directas.
+Tienen que ver con la calidad, rendimiento, seguridad, usabilidad, etc.
 | Código RNF | Nombre del Requerimiento           | Descripción                                                                                                                  |
 |------------|------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
 | RNF-01     | Rendimiento (Capacidad de Respuesta) | La interfaz debe ser responsive y todas las operaciones (agregar, editar o buscar una cita) deben ejecutarse en menos de 2 segundos. |
@@ -45,8 +49,7 @@ estudiantes.
 
 
 ## Propuesta de Mantenimiento
-Se propone realizar un **mantenimiento evolutivo** para incorporar nuevas funcionalidades, como sincronización con Google Calendar o integración con asistentes virtuales.
-También se planifica un **mantenimiento preventivo** mensual, enfocado en respaldos automáticos y actualizaciones de seguridad.
+Se propone realizar un mantenimiento continuo de la Agenda Personal de Citas para garantizar su correcto funcionamiento, adaptarse a los futuros cambios tecnológicos y mejorar la experiencia del usuario. Este mantenimiento permitirá corregir fallos, optimizar el rendimiento y mantener la aplicación estable, segura y eficiente a lo largo del tiempo.
 
 ## Reflexión sobre el control de versiones
 El control de versiones en GitHub permite llevar un historial claro de los cambios, recuperar archivos si ocurre un error y trabajar de forma más organizada. Es una herramienta esencial para mantener la documentación y el desarrollo seguros, ordenados y fáciles de gestionar. 
