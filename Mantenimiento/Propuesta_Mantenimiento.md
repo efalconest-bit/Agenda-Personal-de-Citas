@@ -1,5 +1,4 @@
 # Propuesta de Mantenimiento para la Agenda Personal de Citas
-Para este caso, se puede empezar con un mantenimiento correctivo, asegurando que el sistema funcione correctamente, luego aplicar adaptativo para compatibilidad y, finalmente, implementar perfectivo para mejorar la experiencia del usuario y añadir funcionalidades.
 
 ## 1. Mantenimiento Correctivo
 Consiste en solucionar fallos o errores que afectan el funcionamiento normal de la aplicación.
