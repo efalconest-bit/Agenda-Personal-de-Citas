@@ -44,14 +44,23 @@ Además, el control de versiones evita errores por sobrescritura de archivos y f
 
 ---
 
+
 # Investigacion Sobre el Uso de **Markdown**
 
 ## ¿Qué es Markdown y por qué se utiliza en proyectos de software?
-- **Markdown** es un lenguaje de marcado ligero que trata de conseguir la máxima legibilidad y facilidad de publicación tanto en su forma de entrada como de salida, inspirándose en muchas convenciones existentes para marcar mensajes de correo electrónico usando texto llano.
-- Se utiliza en proyectos de software porque es fácil de leer, escribir y convierte el texto con formato a **HTML**, lo que lo hace ideal para documentación como archivos **README.md**, comentarios, blogs y portales de ayuda, ya que el código es más legible y fácil de mantener que el **HTML**. 
+- **Markdown** es un lenguaje de marcado ligero diseñado para permitir la creación de documentos de texto formateado utilizando una sintaxis sencilla y fácil de leer. Su objetivo principal es facilitar la escritura de documentación sin depender de herramientas complejas o interfaces gráficas. 
+
+## En proyectos de software, Markdown se utiliza ampliamente debido a: 
+| Ventaja                 | Descripción                                                                                           |
+|-------------------------|--------------------------------------------------------------------------------------------------------|
+| Simplicidad y legibilidad | Permite escribir documentos claros sin distraerse con el formato.                                      |
+| Compatibilidad            | Es soportado por múltiples plataformas, editores y sistemas de control de versiones.                   |
+| Versatilidad              | Puede usarse para crear README, especificaciones técnicas, documentación de APIs, wikis y más.         |
+| Conversión sencilla       | Puede transformarse fácilmente en HTML, PDF u otros formatos.                                          |
+| Integración con GitHub    | GitHub procesa automáticamente archivos `.md`, permitiendo mostrar documentación de manera clara en línea. |
 
 ## Ejemplo de Como Usar Markdown
-Esta seccion muestra cómo usar los **elementos básicos de formato** en **Markdown**:  
+Esta seccion muestra cómo usar los **elementos básicos de formato** en Markdown:  
 encabezados, listas, tablas, enlaces e imágenes.
 
 ### 1. Encabezados
@@ -104,4 +113,11 @@ Insertar imágenes es muy parecido a crear enlaces, pero se agrega un signo de e
 Tambien se puede insertar simplemente arrastrando la imagen.
 
 ## Ventajas de utilizar **Markdown** en combinación con **GitHub**.
-La combinación de **Markdown** y **GitHub** ofrece ventajas significativas como una escritura simplificada y enfocada, control de versiones de documentos, y la capacidad de crear documentación de proyectos completa y fácil de mantener. Esto permite a los desarrolladores colaborar eficientemente, documentar código de forma legible y rastrear cambios en la documentación o en notas, todo dentro del mismo entorno de trabajo. 
+| Ventaja                   | Descripción                                                                                                  |
+|---------------------------|---------------------------------------------------------------------------------------------------------------|
+| Documentación clara y estandarizada | Facilita la creación de archivos como README.md o manuales técnicos.                                         |
+| Control de versiones      | Todos los cambios quedan registrados, permitiendo rastrear modificaciones en la documentación.                |
+| Colaboración eficiente    | Varios usuarios pueden editar, revisar o comentar la documentación usando pull requests.                     |
+| Visualización inmediata   | GitHub renderiza automáticamente el Markdown, mostrando el documento con formato adecuado.                   |
+| Portabilidad              | Los archivos `.md` son livianos y funcionan en cualquier sistema operativo.                                  |
+ 
