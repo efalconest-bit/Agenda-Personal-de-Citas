@@ -24,5 +24,4 @@ Ejemplos:
 - Optimizar la velocidad de carga de las citas.
 - Incorporar nuevas opciones de filtrado o etiquetas más avanzadas.
 - Añadir estadísticas o gráficos de uso para el usuario.
-
 En conjunto, el mantenimiento correctivo, adaptativo y perfectivo garantiza que la Agenda Personal de Citas se mantenga funcional, actualizada y en mejora continua.
