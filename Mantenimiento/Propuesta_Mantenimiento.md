@@ -1,27 +1,17 @@
 # Propuesta de Mantenimiento para la Agenda Personal de Citas
+El mantenimiento de software consiste en modificar y actualizar un sistema después de 
+su entrega, con el fin de corregir errores, mejorar su rendimiento o adaptarlo a nuevos 
+entornos (Pressman, 2010; Sommerville, 2011).
 
-## 1. Mantenimiento Correctivo
-Consiste en solucionar fallos o errores que afectan el funcionamiento normal de la aplicación.
-Ejemplos para la Agenda Personal de Citas:
-- Corregir un error que impide guardar nuevas citas.
-- Reparar fallas en la búsqueda o filtrado.
-- Arreglar problemas con las notificaciones que no aparecen.
-- Solucionar cierres inesperados o pantallas que no cargan.
+# Tipos de Mantenimiento
+## Tipos de Mantenimiento de Software
 
-## 2. Mantenimiento Adaptativo
-Se realizan cambios para que el sistema siga funcionando cuando cambian el entorno o las tecnologías.
-Ejemplos:
-- Actualizar la aplicación para que funcione en una nueva versión de Android o Windows.
-- Adaptar la base de datos a un nuevo formato de almacenamiento.
-- Ajustar la interfaz para pantallas más modernas o resoluciones diferentes.
-- Incorporar compatibilidad con nuevos dispositivos o navegadores.
+| Tipo de Mantenimiento | Descripción |
+|-----------------------|-------------|
+| **Correctivo**        | Corrige defectos detectados en el software durante su uso (errores lógicos, fallos de ejecución, etc.). |
+| **Adaptativo**        | Ajusta el software a nuevos entornos, como nuevas versiones de sistemas operativos, navegadores o hardware. |
+| **Perfectivo**        | Mejora el rendimiento del sistema o añade nuevas funciones según las necesidades del usuario. |
+| **Preventivo**        | Refactoriza o mejora el código interno para prevenir fallos futuros y aumentar la mantenibilidad. |
 
-## 3. Mantenimiento Perfectivo
-Mejora el sistema agregando funciones o optimizando las existentes, aunque no haya errores.
-Ejemplos:
-- Agregar un modo oscuro o mejorar la apariencia de la interfaz.
-- Optimizar la velocidad de carga de las citas.
-- Incorporar nuevas opciones de filtrado o etiquetas más avanzadas.
-- Añadir estadísticas o gráficos de uso para el usuario.
-
-En conjunto, el mantenimiento correctivo, adaptativo y perfectivo garantiza que la Agenda Personal de Citas se mantenga funcional, actualizada y en mejora continua.
+# Conclusión
+Los diferentes tipos de mantenimiento permiten asegurar que un software siga siendo útil, seguro y eficiente a lo largo del tiempo. El mantenimiento correctivo resuelve fallos, el adaptativo permite que el sistema siga funcionando en nuevos entornos, el perfectivo mejora su rendimiento y funcionalidades, y el preventivo evita problemas futuros. En conjunto, estos mantenimientos garantizan que la aplicación se mantenga estable, actualizada y alineada con las necesidades del usuario.
