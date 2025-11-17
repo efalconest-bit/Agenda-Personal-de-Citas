@@ -9,14 +9,22 @@ El sistema busca facilitar la gestión del tiempo, evitando olvidos y mejorando 
 - Facilitar la búsqueda de citas por fecha, tema o tipo.
 - Garantizar que los datos sean seguros y se almacenen correctamente.
 
+## Requerimientos Funcionales
+| **Código** | **Descripción** | **Criterio de Éxito** |
+|------------|------------------|------------------------|
+| **RF-01: Gestión de Citas** | El sistema debe permitir al usuario crear, visualizar, modificar y eliminar citas. | Para cada cita, el usuario debe poder almacenar como mínimo: título, fecha, hora, ubicación y descripción. |
+| **RF-02: Búsqueda y Filtrado** | El sistema debe permitir al usuario buscar citas por título o descripción, y filtrar la lista de citas por fecha o etiquetas. | El usuario debe obtener una lista de citas que coincidan con el término de búsqueda o los criterios de filtrado aplicados. |
+| **RF-03: Categorización con Etiquetas** | El sistema debe permitir asignar una o múltiples etiquetas personalizadas a cada cita. | El usuario puede crear nuevas etiquetas y asignarlas a cualquier cita durante su creación o edición. |
+| **RF-04: Notificaciones y Recordatorios** | El sistema debe permitir al usuario configurar recordatorios para cada cita. | El sistema mostrará una notificación visual o sonora en el momento programado. |
+| **RF-05: Respaldo y Sincronización** | El sistema debe permitir respaldar y restaurar toda la información de la agenda. | El archivo de respaldo contendrá toda la información de citas y etiquetas y permitirá recuperar los datos en otro dispositivo. |
+
 ## Requerimientos no Funcionales
-| ID | Tipo | Descripción |
-|-|-|-|
-| RNF1 | Usabilidad | La interfaz debe ser intuitiva y fácil de usar para usuarios no técnicos. |
-| RNF2 | Rendimiento | El sistema debe cargar la agenda y las citas en menos de 3 segundos. |
-| RNF3 | Seguridad de datos | Los datos de las citas deben mantenerse privados y protegidos. |
-| RNF4 | Disponibilidad | La interfaz debe ser intuitiva y fácil de usar para usuarios no técnicos. | Los usuarios deben poder crear una cita en menos de 3 clics |
-| RNF5 | Mantenibilidad | El sistema debe funcionar en diferentes dispositivos y navegadores. |
+| Código RNF | Nombre del Requerimiento           | Descripción                                                                                                                  |
+|------------|------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| RNF-01     | Rendimiento (Capacidad de Respuesta) | La interfaz debe ser responsive y todas las operaciones (agregar, editar o buscar una cita) deben ejecutarse en menos de 2 segundos. |
+| RNF-02     | Usabilidad                         | La interfaz debe ser intuitiva y fácil de usar; un usuario nuevo debe poder agregar su primera cita en menos de 3 minutos sin consultar un manual. |
+| RNF-03     | Seguridad y Privacidad             | Los datos deben estar protegidos; las contraseñas deben almacenarse encriptadas y la base de datos local no debe ser accesible sin permisos. |
+
 
 ## Tabla de Prueba
 | Nº | Requerimiento asociado | Datos de Entrada | Resultado esperado | Validacion |
