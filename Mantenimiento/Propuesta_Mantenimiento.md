@@ -2,26 +2,27 @@
 Para este caso, se puede empezar con un mantenimiento correctivo, asegurando que el sistema funcione correctamente, luego aplicar adaptativo para compatibilidad y, finalmente, implementar perfectivo para mejorar la experiencia del usuario y añadir funcionalidades.
 
 ## 1. Mantenimiento Correctivo
-Objetivo: Corregir errores que afecten el funcionamiento del sistema.
-Ejemplos de acciones:
-- Solucionar fallos al registrar citas (por ejemplo, errores al guardar la fecha o la hora).
-- Arreglar errores en la modificación o eliminación de citas que no actualicen correctamente la base de datos.
-- Corregir problemas de visualización de la agenda en distintos dispositivos o navegadores.
-**Beneficio:** Garantiza que el sistema funcione correctamente y sin interrupciones para el usuario.
+Consiste en solucionar fallos o errores que afectan el funcionamiento normal de la aplicación.
+Ejemplos para la Agenda Personal de Citas:
+- Corregir un error que impide guardar nuevas citas.
+- Reparar fallas en la búsqueda o filtrado.
+- Arreglar problemas con las notificaciones que no aparecen.
+- Solucionar cierres inesperados o pantallas que no cargan.
 
 ## 2. Mantenimiento Adaptativo
-Objetivo: Ajustar el sistema para que funcione correctamente en entornos cambiantes o nuevos requerimientos tecnológicos.
-Ejemplos de acciones:
-- Actualizar la aplicación para que sea compatible con nuevas versiones de sistemas operativos o navegadores.
-- Integrar la agenda con calendarios externos (Google Calendar, Outlook).
-- Implementar soporte para dispositivos móviles o pantallas de distintos tamaños.
-**Beneficio:** Permite que el sistema se mantenga funcional y compatible a medida que cambian las condiciones externas.
+Se realizan cambios para que el sistema siga funcionando cuando cambian el entorno o las tecnologías.
+Ejemplos:
+- Actualizar la aplicación para que funcione en una nueva versión de Android o Windows.
+- Adaptar la base de datos a un nuevo formato de almacenamiento.
+- Ajustar la interfaz para pantallas más modernas o resoluciones diferentes.
+- Incorporar compatibilidad con nuevos dispositivos o navegadores.
 
 ## 3. Mantenimiento Perfectivo
-Objetivo: Mejorar o optimizar el sistema para ofrecer nuevas funcionalidades o aumentar la eficiencia.
-Ejemplos de acciones:
-- Agregar notificaciones automáticas de recordatorio antes de cada cita.
-- Añadir búsqueda avanzada por palabra clave o categoría de citas.
-- Optimizar la interfaz de usuario para que sea más intuitiva y atractiva.
-- Mejorar la velocidad de carga y respuesta de la aplicación.
-**Beneficio:** Incrementa la satisfacción del usuario, la eficiencia y la competitividad del sistema.
+Mejora el sistema agregando funciones o optimizando las existentes, aunque no haya errores.
+Ejemplos:
+- Agregar un modo oscuro o mejorar la apariencia de la interfaz.
+- Optimizar la velocidad de carga de las citas.
+- Incorporar nuevas opciones de filtrado o etiquetas más avanzadas.
+- Añadir estadísticas o gráficos de uso para el usuario.
+
+En conjunto, el mantenimiento correctivo, adaptativo y perfectivo garantiza que la Agenda Personal de Citas se mantenga funcional, actualizada y en mejora continua.
