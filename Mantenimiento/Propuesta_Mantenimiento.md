@@ -1,7 +1,5 @@
 # Propuesta de Mantenimiento para la Agenda Personal de Citas
-El mantenimiento de software consiste en modificar y actualizar un sistema después de 
-su entrega, con el fin de corregir errores, mejorar su rendimiento o adaptarlo a nuevos 
-entornos (Pressman, 2010; Sommerville, 2011).
+Se propone realizar un mantenimiento continuo de la Agenda Personal de Citas para garantizar su correcto funcionamiento, adaptarse a los futuros cambios tecnológicos y mejorar la experiencia del usuario. Este mantenimiento permitirá corregir fallos, optimizar el rendimiento y mantener la aplicación estable, segura y eficiente a lo largo del tiempo.
 
 # Tipos de Mantenimiento
 ## Tipos de Mantenimiento de Software
