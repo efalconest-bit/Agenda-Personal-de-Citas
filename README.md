@@ -1,7 +1,11 @@
 <h1 align="center"> AGENDA PERSONAL DE CITAS </h1>
 
-El proyecto consiste en desarrollar una **aplicación de Agenda Personal de Citas**, que permita al usuario **registrar, consultar, modificar y eliminar citas** de manera rápida y organizada.  
-El sistema busca facilitar la gestión del tiempo, evitando olvidos y mejorando la productividad personal o profesional.
+## Descripción del Sistema
+La Agenda Personal de Citas es una aplicación diseñada para registrar, organizar y 
+gestionar citas personales o profesionales. Permite al usuario agendar nuevas citas, editar 
+o eliminar existentes, visualizar por día/semana/mes y recibir recordatorios. Su objetivo 
+es facilitar la organización del tiempo y evitar olvidos, siendo útil para profesionales o 
+estudiantes. 
 
 ## Objetivos
 - Permitir al usuario administrar sus citas diarias, semanales o mensuales.
@@ -27,11 +31,18 @@ El sistema busca facilitar la gestión del tiempo, evitando olvidos y mejorando 
 
 
 ## Tabla de Prueba
-| Nº | Requerimiento asociado | Datos de Entrada | Resultado esperado | Validacion |
-|----|------------------------|------------------|--------------------|------------|
-| 1. | RF1 – Registrar cita | Fecha: 15/11/2025<br>Hora: 09:00<br>Asunto: “Cita médica”<br>Descripción: “Chequeo general” | La cita se registra correctamente en la base de datos y se muestra en la lista de citas | Cita creada y visualizada correctamente en la agenda |
-| 2. | RF2 – Consultar cita | Buscar: “médica” | El sistema muestra la cita registrada que contiene la palabra clave “médica” | Cita encontrada correctamente por palabra clave |
-| 3. | RF3 – Editar cita | Cita seleccionada: “Cita médica”<br>Nuevo asunto: “Chequeo odontológico” | Se actualiza la cita con el nuevo asunto sin errores | Cita modificada correctamente y actualizada en pantalla |
+| Caso de Prueba                | Requerimiento Asociado | Datos de Entrada                                                                                      | Resultado Esperado                                                                                       | Resultado Obtenido                           |
+|------------------------------|--------------------------|--------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------|-----------------------------------------------|
+| CPU-01: Creación de cita válida | RF-01: Gestión de Citas   | Título: "Reunión médico", Fecha: "2024-06-15", Hora: "10:00"                                           | Sistema crea la cita exitosamente y la muestra en la lista                                                | ✔ PASA - Cita creada correctamente            |
+| CPU-02: Búsqueda por título existente | RF-02: Búsqueda y Filtrado | Término: "dentista" (con citas: "Limpieza dental", "Reunión trabajo")                                   | Retorna 2 citas con "dentista" en título o descripción                                                     | ✔ PASA - Encontró 2 citas correctamente       |
+| CPU-03: Asignación de etiqueta múltiple | RF-03: Categorización y Etiquetas | Cita: "Entrega proyecto", Etiquetas: ["Trabajo", "Urgente"]                                            | Asigna las 2 etiquetas y las muestra en la interfaz                                                       | ✔ PASA - Etiquetas asignadas correctamente    |
+
+## Pruebas de Validación
+| Prueba de Validación                  | Requerimiento Asociado     | Datos de Entrada                                                                                      | Resultado Esperado                                                                                  | Resultado Obtenido                                   |
+|---------------------------------------|-----------------------------|--------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|-------------------------------------------------------|
+| CPV-01: Flujo completo de recordatorio | RF-04: Notificaciones y Recordatorios | Cita con recordatorio para *2024-06-10 18:00*                                                          | Muestra notificación en fecha y hora programadas                                                    | ✔ PASA - Recordatorio activado correctamente          |
+| CPV-02: Respaldo e integridad de datos | RF-05: Respaldo y Restauración | Agenda con 15 citas y 5 etiquetas. Exportar → Eliminar → Importar                                      | Restaura todos los datos exactamente igual                                                          | ✔ PASA - Todos los datos recuperados sin pérdida      |
+
 
 ## Propuesta de Mantenimiento
 Se propone realizar un **mantenimiento evolutivo** para incorporar nuevas funcionalidades, como sincronización con Google Calendar o integración con asistentes virtuales.
